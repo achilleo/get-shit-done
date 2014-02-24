@@ -19,15 +19,12 @@ if (file_exists($iniFile)) {
 	$siteList = $iniContents['sites'];
 } else {
 	$siteList = array(
-		'reddit.com', 'forums.somethingawful.com', 'somethingawful.com',
-		'digg.com', 'break.com', 'news.ycombinator.com',
-		'infoq.com', 'bebo.com', 'twitter.com',
-		'facebook.com', 'blip.com', 'youtube.com',
-		'vimeo.com', 'delicious.com', 'flickr.com',
-		'friendster.com', 'hi5.com', 'linkedin.com',
-		'livejournal.com', 'meetup.com', 'myspace.com',
-		'plurk.com', 'stickam.com', 'stumbleupon.com',
-		'yelp.com', 'slashdot.org'
+		'weibo.com', 'renren.com', 'sina.com.cn',
+		'ruby-china.com', 'youku.com', 'alipay.com',
+		'liutao.me', 'fund.eastmoney.com', 'twitter.com',
+		'facebook.com', 'zhihu.com', 'youtube.com',
+		'douban.com', '36kr.com', 'geekpark.net',
+		'linkedin.com'
 	);
 }
 
